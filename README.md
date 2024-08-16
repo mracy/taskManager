@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Task Management App
+
+## Overview
+
+Task Management App is a React-based application designed to demonstrate fundamental React concepts including functional components, conditional rendering, and hooks. The app provides a simple and intuitive interface for managing tasks, featuring task addition, removal, and dynamic UI updates.
+
+## Features
+
+- **Task Addition**: Easily add new tasks using a form.
+- **Task Removal**: Remove tasks with a button.
+- **Dynamic UI**: Conditional rendering based on task availability.
+- **Rendering Lists**: Efficient management of task lists with unique keys.
+- **CSS Styling**: Basic styling to enhance the user interface.
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Hooks**: `useState`, `useCallback`, `useMemo` for state management and performance optimization.
+- **CSS**: Basic styling for the app.
+
+## Getting Started
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mracy/taskManager.git
+   
