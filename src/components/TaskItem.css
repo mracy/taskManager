@@ -1,0 +1,104 @@
+/* TaskItem.css */
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .task-item.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .edit-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .edit-input {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .save-button, .cancel-button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .cancel-button {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+  }
+  
+  .task-text {
+    cursor: pointer;
+    flex: 1;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .task-text:hover {
+    color: #61dafb;
+  }
+  
+  .edit-button, .remove-button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
